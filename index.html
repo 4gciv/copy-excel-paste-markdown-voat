@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Copy Excel Paste Markdown - Voat</title>
+
+	<style>
+		html{
+			height: 100vh;
+		}
+		
+		body{
+			height: 100vh;
+			margin: 0px;
+		}
+		
+		#header{
+			height: 48px;
+			border-bottom: 1px solid #000;
+			margin-bottom: 7px;
+		}
+		
+		#header h1{
+			margin: 0px 5px 0px 5px;
+		}
+		
+		#container{
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 1000px;
+			min-width: 400px;
+			height: calc(100vh - 72px);
+			padding: 8px;
+		}
+		
+		textarea {
+			width: calc(100% - 16px);
+			height: calc(100% - 16px);
+			font-family: "Lucida Console"
+		}
+	</style>
+</head>
+
+<body>
+	<div id="header">
+		<h1>Excel to Markdown - Voat</h1>
+	</div>
+	<div id="container">
+		<textarea id="editor"></textarea>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
